@@ -1,0 +1,64 @@
+:root {
+  font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  color: #1a1a2e;
+  background: linear-gradient(160deg, #f0f4ff 0%, #e8f5e9 100%);
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  text-align: center;
+  padding: 2rem;
+  max-width: 28rem;
+}
+
+h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2rem;
+}
+
+.tagline {
+  margin: 0 0 1.5rem;
+  color: #555;
+}
+
+.counter-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+#count {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #4361ee;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3651d4;
+}
+
+.status {
+  margin-top: 1.25rem;
+  font-size: 0.9rem;
+  color: #333;
+}
